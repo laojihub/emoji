@@ -1,0 +1,76 @@
+html.body{
+    height:100%;
+}
+.wrap{
+    width:750px;
+    margin:0 auto;
+}
+
+table{
+    width:100%;
+    border-top:1px solid #ccc;
+    border-left: 1px solid #ccc;
+    border-spacing: 0;
+}
+table td{
+    border-right:1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding:5px;
+}
+
+
+.textarea{
+    height:100px;
+    overflow-y: scroll;
+    border:1px solid #ccc;
+    margin-bottom: 5px;
+}
+.emoji{
+    display: inline-block;
+    width:24px;
+    height:24px;
+    vertical-align: middle;
+    margin: 0 3px;
+}
+
+.biaoqing {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background: url(../img/biaoqing.png) center no-repeat;
+    background-size: contain;
+    cursor: pointer;
+}
+
+.face-list-wrap{
+    position: absolute;
+    padding:10px;
+    height:116px;
+    width:532px;
+    z-index: 919891016;
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+.face-list{
+    display: block;
+    height:96px;
+    width:512px;
+    background: url(../img/emoji.png) left top no-repeat;
+    margin: 0;
+    padding: 0;
+}
+.face-list li{
+    display: inline-block;
+    width: 32px;
+    height: 30px;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+.face-list li:hover{
+    border:1px solid #04b4dd;
+}
+
+.btn-send{
+    float: right;
+}
